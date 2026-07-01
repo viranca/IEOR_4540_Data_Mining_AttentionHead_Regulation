@@ -1,0 +1,23 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Trained model checkpoints (large; regenerate by running the notebooks)
+*.pt
+*.pth
+
+# Dataset archives (Multi30k is downloaded/extracted by torchtext)
+*.tar.gz
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
